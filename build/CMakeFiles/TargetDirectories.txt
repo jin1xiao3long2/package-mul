@@ -1,3 +1,0 @@
-D:/2021_2/myPackage/build/CMakeFiles/MUL.dir
-D:/2021_2/myPackage/build/CMakeFiles/edit_cache.dir
-D:/2021_2/myPackage/build/CMakeFiles/rebuild_cache.dir
