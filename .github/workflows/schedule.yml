@@ -78,17 +78,6 @@ jobs:
         run: |
           .github/workflows/build.bat
           
-      # Run tests
-      - name: Run tests on Ubuntu
-        if: matrix.os == 'ubuntu-latest'
-        run: |
-          cs -i ./build ./run_test.csc
-          
-      - name: Run tests on Windows
-        if: matrix.os == 'windows-latest'
-        run: |
-          C:\build\bin\cs -i .\build .\run_test.csc
-          
       - name: Automatic Release on Ubuntu
         if: matrix.os == 'ubuntu-latest'
         uses: marvinpinto/action-automatic-releases@master
