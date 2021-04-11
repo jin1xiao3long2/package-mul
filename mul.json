@@ -1,0 +1,8 @@
+{
+	"Author" : "Covariant : Jola",
+	"Dependencies" : [],
+	"Info" : "Package Example: CSE",
+	"Name" : "mul",
+	"Target" : "https://github.com/covscript/package-example/releases/download/windows-schedule/mul.cse",
+	"Version" : "1.0.0_ABI210404"
+}

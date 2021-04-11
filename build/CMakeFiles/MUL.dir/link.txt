@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\MUL.dir/objects.a
+C:\BC\C\mingw64\bin\ar.exe cr CMakeFiles\MUL.dir/objects.a @CMakeFiles\MUL.dir\objects1.rsp
+C:\BC\C\mingw64\bin\g++.exe  --static -fPIC -s -O3  -shared -o mul.cse -Wl,--out-implib,libmul.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\MUL.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\MUL.dir\linklibs.rsp

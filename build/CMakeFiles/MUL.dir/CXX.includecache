@@ -1,0 +1,294 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files (x86)/CovScript/include/covscript/cni.hpp
+covscript/core/core.hpp
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/core/cni.hpp
+covscript/import/mozart/bind.hpp
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/core/components.hpp
+covscript/import/mozart/base.hpp
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/core/core.hpp
+covscript/import/libdll/dll.hpp
+-
+covscript/import/parallel_hashmap/phmap.h
+-
+unordered_map
+-
+unordered_set
+-
+forward_list
+-
+type_traits
+-
+functional
+-
+typeindex
+-
+algorithm
+-
+exception
+-
+stdexcept
+-
+fstream
+-
+sstream
+-
+iomanip
+-
+istream
+-
+ostream
+-
+utility
+-
+cstring
+-
+atomic
+-
+cctype
+-
+string
+-
+vector
+-
+memory
+-
+cmath
+-
+deque
+-
+list
+-
+map
+-
+covscript/core/components.hpp
+-
+covscript/core/definition.hpp
+-
+covscript/core/variable.hpp
+-
+covscript/core/version.hpp
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/core/definition.hpp
+
+C:/Program Files (x86)/CovScript/include/covscript/core/variable.hpp
+covscript/import/mozart/traits.hpp
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/core/version.hpp
+
+C:/Program Files (x86)/CovScript/include/covscript/dll.hpp
+covscript/impl/type_ext.hpp
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/impl/type_ext.hpp
+covscript/core/core.hpp
+-
+covscript/core/cni.hpp
+-
+ctime
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/libdll/dll.hpp
+stdexcept
+-
+string
+-
+windows.h
+-
+dlfcn.h
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/base.hpp
+exception
+-
+stdexcept
+-
+typeindex
+-
+typeinfo
+-
+string
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/bind.hpp
+./base.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/base.hpp
+./tuple.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/tuple.hpp
+./function.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/function.hpp
+./typelist.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/typelist.hpp
+
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/function.hpp
+./base.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/base.hpp
+./traits.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/traits.hpp
+
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/traits.hpp
+utility
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/tuple.hpp
+./base.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/base.hpp
+./traits.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/traits.hpp
+
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/typelist.hpp
+./base.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/base.hpp
+./traits.hpp
+C:/Program Files (x86)/CovScript/include/covscript/import/mozart/traits.hpp
+cstdio
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap.h
+algorithm
+-
+cmath
+-
+cstring
+-
+iterator
+-
+limits
+-
+memory
+-
+tuple
+-
+type_traits
+-
+utility
+-
+array
+-
+cassert
+-
+atomic
+-
+phmap_fwd_decl.h
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_fwd_decl.h
+phmap_utils.h
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_utils.h
+phmap_base.h
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_base.h
+string_view
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_base.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+initializer_list
+-
+iterator
+-
+string
+-
+type_traits
+-
+utility
+-
+functional
+-
+tuple
+-
+utility
+-
+memory
+-
+mutex
+-
+phmap_config.h
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_config.h
+shared_mutex
+-
+optional
+-
+sanitizer/asan_interface.h
+-
+cxxabi.h
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_bits.h
+stdlib.h
+-
+libkern/OSByteOrder.h
+-
+sys/endian.h
+-
+byteswap.h
+-
+string.h
+-
+cstdint
+-
+phmap_config.h
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_config.h
+stdint.h
+-
+intrin.h
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_config.h
+limits.h
+-
+cstddef
+-
+Availability.h
+-
+TargetConditionals.h
+-
+android/ndk-version.h
+-
+emmintrin.h
+-
+tmmintrin.h
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_fwd_decl.h
+memory
+-
+utility
+-
+functional
+-
+
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_utils.h
+cstdint
+-
+functional
+-
+tuple
+-
+phmap_bits.h
+C:/Program Files (x86)/CovScript/include/covscript/import/parallel_hashmap/phmap_bits.h
+
+D:/2021_2/myPackage/mul.cpp
+iostream
+-
+covscript/cni.hpp
+-
+covscript/dll.hpp
+-
+
