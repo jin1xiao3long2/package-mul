@@ -3,6 +3,6 @@
 	"Dependencies" : [],
 	"Info" : "Package Example: CSE",
 	"Name" : "mul",
-	"Target" : "https://github.com/covscript/package-example/releases/download/windows-schedule/windows/x86_64/mul.cse",
+	"Target" : "https://github.com/jin1xiao3long2/package-mul/releases/download/windows-schedule/windows/x86_64/mul.cse",
 	"Version" : "1.0.0_ABI210404"
 }
