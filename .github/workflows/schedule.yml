@@ -36,7 +36,6 @@ jobs:
         if: matrix.os == 'ubuntu-latest'
         run: |
           sudo dpkg -i covscript-amd64.deb
-          rm -rf build
           mkdir build
           cd build
           cmake ..
