@@ -1,0 +1,3 @@
+import mul
+
+mul.mul()
